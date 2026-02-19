@@ -76,7 +76,7 @@ console.log(resultado)
 
 let driverSpeed = 80
 
-if (driveSpeed > 110) {
+if (driverSpeed > 110) {
     console.log('Driving too fast')
 }
 
@@ -116,6 +116,51 @@ for (i = 0; i < 10; i++) {
 
 // while loop
 
+i = 1
+while (i <= 10) {
+    console.log('i:', i)
+    i++
+}
+
+// do while loop
+
+i = 1
+do {
+    console.log('Numero', i)
+    i++
+} while (i <= 10)
+
+
+//for of loop 
+
+const myCar = {
+    model: 'BMW',
+    year: 2023,
+    km: 6888
+}
+
+for (let i in myCar) {
+    console.log(i, myCar[i])
+}
+
+//for of loop
+
+const friends = ['Alice', 'Bob', 'Charlie']
+
+for (let i in friends) {
+    console.log(friends[i])
+}
+
+//break
+
+i = 1
+while (i <= 10) {
+    if (i === 8) break
+    console.log('i:', i)
+    i++
+}
+
+///Desafio
 
 
 
